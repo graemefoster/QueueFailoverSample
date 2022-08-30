@@ -5,7 +5,7 @@
 
 ``` 
 cd infra
-az deployment sub  create --template-file .\main.bicep --parameters sqlPassword=<complex-password> ```
+az deployment sub  create --template-file .\main.bicep --parameters sqlPassword=<complex-password>
 ```
 
 ## Scenario
