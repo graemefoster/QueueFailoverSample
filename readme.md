@@ -24,7 +24,7 @@ When the database is seeded the following functions will operate:
 | Consumer         | Queue Trigger          | Consumes producer messages and update the transfer in the DB                      |
 | QueueLengthCheck | Timer every 10 seconds | Writes an App Insights metric containing current primary and replica queue length |
 | ProducerFailover | Http Trigger           | Re-sends any schedule messages not yet processed. Used to mop-up after a failover |
-| ProducedSeed}    | Http Trigger           | Re-initialises the database with 50,000 schedules                                 |
+| ProducerSeed     | Http Trigger           | Re-initialises the database with 50,000 schedules                                 |
 
 ## Failing Over
 
