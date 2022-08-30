@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueFailoverTest", "Functions\QueueFailoverTest.csproj", "{0738718E-E954-4053-8889-92D6E0A242C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{A9777A15-60E0-40A2-B884-4BA3FBE2C480}"
+	ProjectSection(SolutionItems) = preProject
+		Infra\fcns.bicep = Infra\fcns.bicep
+		Infra\main.bicep = Infra\main.bicep
+		Infra\main-mel.bicep = Infra\main-mel.bicep
+		Infra\main-stg.bicep = Infra\main-stg.bicep
+		Infra\networks.bicep = Infra\networks.bicep
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0738718E-E954-4053-8889-92D6E0A242C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0738718E-E954-4053-8889-92D6E0A242C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0738718E-E954-4053-8889-92D6E0A242C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0738718E-E954-4053-8889-92D6E0A242C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
